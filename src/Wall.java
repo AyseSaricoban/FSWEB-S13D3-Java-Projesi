@@ -1,13 +1,12 @@
 
-// Wall.java dosyasına ait başlık (header)
+
 public class Wall {
-    // Instance variables
     private double width;
     private double height;
 
     public Wall(double width, double height) {
-        setWidth(width);
-        setHeight(height);
+        this.width=width;
+        this.height=height;
     }
 
     public double getWidth() {
